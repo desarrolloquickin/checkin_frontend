@@ -1,0 +1,237 @@
+{
+    "default": {
+        "api_url": "http://188.85.148.70:48082//AWWebAPI/api/aw/awa",
+        "custom_api_url": "http://localhost:8082",
+        "style": {
+            "URL_IMAGEN_FONDO": "https://picsum.photos/1500/700?random&#x3D;1",
+            "URL_LOGO_MARCA": "https://www.aluahotels.com/uploads/logoshotel/svg/logo-alua-header.svg",
+            "COLOR_FONDO_CUADRO_FORMULARIO": "#00a5b1",
+            "COLOR_BOTON": "#006682",
+            "COLOR_TEXTO_BOTON": "#ffffff",
+            "COLOR_ICONO_GRIS": "#495057",
+            "COLOR_BOTON_EDITAR": "",
+            "COLOR_BOTON_BORRAR": ""
+        },
+        "showBanner": 1,
+        "colorBrand": "rgb(255 255 255 / 57%)",
+        "bannerHeader": {
+            "url": "http://www.amresortseu.com/",
+            "img": "../img/banners/amr_black.png"
+        },
+        "banner": [
+            {
+                "url": "https://www.aluahotels.com/",
+                "img": "../img/banners/alua_black.png",
+                "width": "50%"
+            },
+            {
+                "url": "http://www.breathlessresorts.com/en_us/home.html",
+                "img": "../img/banners/breathless_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.dreamsresorts.com/en_us/home.html",
+                "img": "../img/banners/dreams_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.nowresorts.com/",
+                "img": "../img/banners/now_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.reflectresorts.com/",
+                "img": "../img/banners/reflect_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.secretsresorts.com",
+                "img": "../img/banners/secrets_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.sunscaperesorts.com/",
+                "img": "../img/banners/sunscape_black.png",
+                "width": ""
+            },
+            {
+                "url": "http://www.zoetryresorts.com/",
+                "img": "../img/banners/zoetry_black.png",
+                "width": ""
+            }
+        ],
+        "hotels": [
+            {
+                "id": "H07",
+                "value": "HOTEL VILLAGE",
+                "docs": ["Doc_1_H20_1_","Doc_2_H00_2_","policia_"]
+            },
+            {
+                "id": "H20",
+                "value": "HOTEL JARDIN TROPICAL",
+                "docs": ["Doc_1_H20_1_","Doc_2_H00_2_","policia_"]
+            }
+
+        ],
+	"camposObligatorios": {
+            "nombre": true,
+            "primer_apellido": true,
+            "segundo_apellido": false,
+            "tipo_documento": true,
+            "num_documento": true,
+            "fecha_expedicion": true,
+            "fecha_nacimiento": true,
+            "pais_nacimiento": true,
+            "pais_residencia": true,
+            "email": false,
+            "sexo": true,
+            "direccion": false,
+            "poblacion": false,
+            "provincia": false,
+            "codigo_postal": false,
+            "aceptar_terminos": true
+        }
+              
+    },
+
+    "local": {
+        "api_url": "http://10.5.0.22:82//AWWebAPI/api/aw/awa",
+        "custom_api_url": "http://localhost:8082",
+        "style": {
+            "URL_IMAGEN_FONDO": "../img/backgrounds/fondo_alua.jpg",
+            "URL_LOGO_MARCA": "https://www.aluahotels.com/uploads/logoshotel/svg/logo-alua-header.svg",
+            "COLOR_FONDO_CUADRO_FORMULARIO": "#00a5b1",
+            "COLOR_BOTON": "#006682",
+            "COLOR_TEXTO_BOTON": "#ffffff",
+            "COLOR_ICONO_GRIS": "#495057",
+            "COLOR_BOTON_EDITAR": "",
+            "COLOR_BOTON_BORRAR": ""
+        },
+        "showBanner": 1,
+        "colorBrand": "rgb(255 255 255 / 57%)",
+        "bannerHeader": {
+            "url": "http://www.amresortseu.com/",
+            "img": "../img/banners/amr_black.png"
+        },
+        "banner": [
+            {
+                "url": "https://www.aluahotels.com/",
+                "img": "../img/banners/alua.jpg",
+		"width": ""
+            }
+        ],
+        "hotels": [
+            {
+                "id": "H07",
+                "value": "HOTEL VILLAGE",
+                "docs": ["Doc_1_H20_1_","Doc_2_H00_2_","policia_"]
+            },
+            {
+                "id": "H20",
+                "value": "HOTEL JARDIN TROPICAL",
+                "docs": ["Doc_1_H20_1_","Doc_2_H00_2_","policia_"]
+            }
+        ],
+	"camposObligatorios": {
+            "nombre": true,
+            "primer_apellido": true,
+            "segundo_apellido": false,
+            "tipo_documento": true,
+            "num_documento": true,
+            "fecha_expedicion": true,
+            "fecha_nacimiento": true,
+            "pais_nacimiento": true,
+            "pais_residencia": true,
+            "email": false,
+            "sexo": true,
+            "direccion": false,
+            "poblacion": false,
+            "provincia": false,
+            "codigo_postal": false,
+            "aceptar_terminos": true
+        }
+              
+    },
+    "vacio": {
+        "api_url": "http://10.5.0.22:82//AWWebAPI/api/aw/awa",
+        "custom_api_url": "http://localhost:8082",
+        "style": {
+            "URL_IMAGEN_FONDO": "../img/backgrounds/fondo_alua.jpg",
+            "URL_LOGO_MARCA": "https://www.aluahotels.com/uploads/logoshotel/svg/logo-alua-header.svg",
+            "COLOR_FONDO_CUADRO_FORMULARIO": "#00a5b1",
+            "COLOR_BOTON": "#006682",
+            "COLOR_TEXTO_BOTON": "#ffffff",
+            "COLOR_ICONO_GRIS": "#495057",
+            "COLOR_BOTON_EDITAR": "",
+            "COLOR_BOTON_BORRAR": ""
+        },
+        "showBanner": 1,
+        "colorBrand": "rgb(255 255 255 / 57%)",
+        "bannerHeader": {
+            "url": "http://www.amresortseu.com/",
+            "img": "../img/banners/amr_black.png"
+        },
+        "banner": [
+        ],
+        "hotels": [
+            {
+                "id": "H07",
+                "value": "HOTEL VILLAGE",
+                "docs": ["Doc_1_H20_1_","Doc_2_H00_2_","policia_"]
+            },
+            {
+                "id": "H20",
+                "value": "HOTEL JARDIN TROPICAL",
+                "docs": ["Doc_1_H20_1_","Doc_2_H00_2_","policia_"]
+            }
+        ],
+	"camposObligatorios": {
+            "nombre": true,
+            "primer_apellido": false,
+            "segundo_apellido": false,
+            "tipo_documento": true,
+            "num_documento": true,
+            "fecha_expedicion": true,
+            "fecha_nacimiento": true,
+            "pais_nacimiento": true,
+            "pais_residencia": true,
+            "email": false,
+            "sexo": true,
+            "direccion": false,
+            "poblacion": false,
+            "provincia": false,
+            "codigo_postal": false,
+            "aceptar_terminos": true
+        }
+              
+    },
+
+    "alua": {
+        "api_url": "http://iis.applelgeu.com:48082//AWWebAPI/api/aw/awa",
+        "custom_api_url": "http://localhost:8081",
+        "style": {
+            "URL_IMAGEN_FONDO": "https://i.pinimg.com/originals/f2/f0/cb/f2f0cb34e485e4be0407b3f1e588f187.jpg",
+            "URL_LOGO_MARCA": "https://previews.123rf.com/images/ikalvi/ikalvi1712/ikalvi171200406/92424242-logotipo-para-la-agencia-de-viajes-tropical-resort-beach-hotel-spa-s%C3%ADmbolo-de-vacaciones-de-verano-log.jpg",
+            "COLOR_FONDO_CUADRO_FORMULARIO": "#666666",
+            "COLOR_BOTON": "#ff8800",
+            "COLOR_TEXTO_BOTON": "blue"  
+        },
+        "hotels": [
+            {"id": "H20", "value": "Hotel 1"}
+        ]  
+    },
+    "other": {
+        "api_url": "http://iis.applelgeu.com:48082//AWWebAPI/api/aw/awa",
+        "custom_api_url": "http://localhost:8081",
+        "style": {
+            "URL_IMAGEN_FONDO": "https://i.pinimg.com/originals/f2/f0/cb/f2f0cb34e485e4be0407b3f1e588f187.jpg",
+            "URL_LOGO_MARCA": "https://previews.123rf.com/images/ikalvi/ikalvi1712/ikalvi171200406/92424242-logotipo-para-la-agencia-de-viajes-tropical-resort-beach-hotel-spa-s%C3%ADmbolo-de-vacaciones-de-verano-log.jpg",
+            "COLOR_FONDO_CUADRO_FORMULARIO": "#666666",
+            "COLOR_BOTON": "#ff8800",
+            "COLOR_TEXTO_BOTON": "blue"  
+        },
+        "hotels": [
+            {"id": "H20", "value": "Hotel 1"}
+        ]  
+    }
+}

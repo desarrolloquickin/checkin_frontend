@@ -1,0 +1,938 @@
+{
+    "alua": {
+        "api_url": "http://iis.applelgeu.com:45450//AWWebAPI/api/aw/awa",
+        "custom_api_url": "http://localhost:8082",
+        "style": {
+            "URL_IMAGEN_FONDO": "../img/backgrounds/fondo_alua.jpg",
+            "URL_LOGO_MARCA": "https://www.aluahotels.com/uploads/logoshotel/svg/logo-alua-header.svg",
+            "COLOR_FONDO_CUADRO_FORMULARIO": "#00a5b1",
+            "COLOR_BOTON": "#006682",
+            "COLOR_TEXTO_BOTON": "#ffffff",
+            "COLOR_ICONO_GRIS": "#495057",
+            "COLOR_BOTON_EDITAR": "",
+            "COLOR_BOTON_BORRAR": ""
+        },
+        "showBanner": 1,
+        "colorBrand": "rgb(255 255 255 / 57%)",
+        "bannerHeader": {
+            "url": "http://www.amresortseu.com/",
+            "img": "../img/banners/amr_black.png"
+        },
+        "banner": [
+            {
+                "url": "http://www.zoetryresorts.com/en_us/home.html",
+                "img": "../img/banners/zoetry_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.secretsresorts.com/en_us/home.html",
+                "img": "../img/banners/secrets_black.png",
+                "width": ""
+            },
+            {
+                "url": "http://www.breathlessresorts.com/en_us/home.html",
+                "img": "../img/banners/breathless_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.dreamsresorts.com/en_us/home.html",
+                "img": "../img/banners/dreams_black.png",
+                "width": ""
+            },
+            {
+                "url": "http://www.nowresorts.com/",
+                "img": "../img/banners/now_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.reflectresorts.com/en_us/home.html",
+                "img": "../img/banners/reflect_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.aluahotels.com/",
+                "img": "../img/banners/alua_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.sunscaperesorts.com/",
+                "img": "../img/banners/sunscape_black.png",
+                "width": ""
+            }
+        ],
+        "hotels": [
+	    {
+                "id": "H01",
+                "title": "ALUASOUL MALLORCA RESORT",
+                "docs": ["Doc_1_H01_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H02",
+                "title": "ALUASOUL IBIZA",
+                "docs": ["Doc_1_H02_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H03",
+                "title": "ALUASOUL ALCUDIA BAY",
+                "docs": ["Doc_1_H03_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H04",
+                "title": "ALUASOUL PALMA",
+                "docs": ["Doc_1_H04_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },  
+	    {
+                "id": "H05",
+                "title": "ALUASUN TORRENOVA",
+                "docs": ["Doc_1_H05_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H06",
+                "title": "ALUA PARQUE SAN ANTONIO",
+                "docs": ["Doc_1_H06_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },         
+	    {
+                "id": "H07",
+                "title": "ALUAVILLAGE FUERTEVENTURA",
+                "docs": ["Doc_1_H07_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H10",
+                "title": "ALUA HAWAII MALLORCA",
+                "docs": ["Doc_1_H00_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H11",
+                "title": "ALUA PALMA NOVA BAY",
+                "docs": ["Doc_1_H00_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H12",
+                "title": "ALUA HAWAII IBIZA",
+                "docs": ["Doc_1_H00_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H13",
+                "title": "ALUA HAWAII IBIZA",
+                "docs": ["Doc_1_H00_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },  
+            {
+                "id": "H26",
+                "title": "ALUASOUL MENORCA",
+                "docs": ["Doc_1_H00_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H27",
+                "title": "ALUASOUL MENORCA",
+                "docs": ["Doc_1_H00_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H28",
+                "title": "ALUASUN FAR MENORCA",
+                "docs": ["Doc_1_H00_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H29",
+                "title": "ALUASUN MEDITERRANEO",
+                "docs": ["Doc_1_H00_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H40",
+                "title": "ALUA BOCCACCIO",
+                "docs": ["Doc_1_H40_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H41",
+                "title": "ALUASUN CONTINENTAL PARK",
+                "docs": ["Doc_1_H41_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H42",
+                "title": "ALUASOUL CAROLINA",
+                "docs": ["Doc_1_H42_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },  
+	    {
+                "id": "H43",
+                "title": "ALUA LAS ROCAS",
+                "docs": ["Doc_1_H43_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H44",
+                "title": "ALUA LEO",
+                "docs": ["Doc_1_H44_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },         
+	    {
+                "id": "H47",
+                "title": "ALUA CAMP DE MAR",
+                "docs": ["Doc_1_H47_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H48",
+                "title": "ALUASUN DOBLEMAR",
+                "docs": ["Doc_1_H48_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H49",
+                "title": "ALUA GOLF TRINIDAD",
+                "docs": ["Doc_1_H49_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H50",
+                "title": "ALUASUN MARBELLA PARK",
+                "docs": ["Doc_1_H50_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H51",
+                "title": "ALUASUN FLAMINGO",
+                "docs": ["Doc_1_H51_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },  
+	    {
+                "id": "H52",
+                "title": "ALUASUN LAGO ROJO",
+                "docs": ["Doc_1_H52_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H53",
+                "title": "ALUASUN COSTA PARK",
+                "docs": ["Doc_1_H53_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H54",
+                "title": "APARTAMENTOS OASIS PARK",
+                "docs": ["Doc_1_H54_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },         
+	    {
+                "id": "H55",
+                "title": "ALUASUN LAGO PARK",
+                "docs": ["Doc_1_H55_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H21",
+                "title": "ALUA SUITES FUERTEVENTURA",
+                "docs": ["Doc_1_H21_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H33",
+                "title": "ALUA CALAS DE MALLORCA RESORTS",
+                "docs": ["Doc_1_H00_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H34",
+                "title": "ALUASUN CALA ANTENA",
+                "docs": ["Doc_1_H00_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H45",
+                "title": "HOTEL LINDA",
+                "docs": ["Doc_1_H45_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H46",
+                "title": "HOTEL OBEROY",
+                "docs": ["Doc_1_H46_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H32",
+                "title": "SIAU IBIZA HOTEL",
+                "docs": ["Doc_1_H32_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H30",
+                "title": "HOTEL CARTAGO",
+                "docs": ["Doc_1_H30_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H31",
+                "title": "HOTEL GALEON",
+                "docs": ["Doc_1_H31_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            }         
+        ],
+	"camposObligatorios": {
+            "nombre": true,
+            "primer_apellido": true,
+            "segundo_apellido": false,
+            "tipo_doc": true,
+            "num_documento": true,
+            "fecha_expedicion": true,
+            "fecha_nacimiento": true,
+            "pais_nacimiento": true,
+            "pais": true,
+            "email": false,
+            "sexo": true,
+            "direccion": false,
+            "poblacion": false,
+            "provincia": false,
+            "codigo_postal": false,
+            "acepta_terminos": false
+        }
+              
+    },
+
+
+    "dreamseu": {
+        "api_url": "http://iis.applelgeu.com:45450//AWWebAPI/api/aw/awa",
+        "custom_api_url": "http://localhost:8082",
+        "style": {
+            "URL_IMAGEN_FONDO": "../img/backgrounds/Fondo_Dreams.jpg",
+            "URL_LOGO_MARCA": "../img/banners/dreams_white.png",
+            "COLOR_FONDO_CUADRO_FORMULARIO": "#c7b378",
+            "COLOR_BOTON": "#ece3d1",
+            "COLOR_TEXTO_BOTON": "#676158",
+            "COLOR_ICONO_GRIS": "#495057",
+            "COLOR_BOTON_EDITAR": "",
+            "COLOR_BOTON_BORRAR": ""
+        },
+        "showBanner": 1,
+        "colorBrand": "rgb(255 255 255 / 57%)",
+        "bannerHeader": {
+            "url": "http://www.amresortseu.com/",
+            "img": "../img/banners/amr_black.png"
+        },
+        "banner": [
+            {
+                "url": "http://www.zoetryresorts.com/en_us/home.html",
+                "img": "../img/banners/zoetry_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.secretsresorts.com/en_us/home.html",
+                "img": "../img/banners/secrets_black.png",
+                "width": ""
+            },
+            {
+                "url": "http://www.breathlessresorts.com/en_us/home.html",
+                "img": "../img/banners/breathless_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.dreamsresorts.com/en_us/home.html",
+                "img": "../img/banners/dreams_black.png",
+                "width": ""
+            },
+            {
+                "url": "http://www.nowresorts.com/",
+                "img": "../img/banners/now_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.reflectresorts.com/en_us/home.html",
+                "img": "../img/banners/reflect_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.aluahotels.com/",
+                "img": "../img/banners/alua_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.sunscaperesorts.com/",
+                "img": "../img/banners/sunscape_black.png",
+                "width": ""
+            }
+        ],
+        "hotels": [
+	    {
+                "id": "H18",
+                "title": "DREAMS LANZAROTE PLAYA DORADA",
+                "docs": ["policia_"],
+		"api_url": ""
+            }
+            ],
+	"camposObligatorios": {
+            "nombre": true,
+            "primer_apellido": true,
+            "segundo_apellido": false,
+            "tipo_doc": true,
+            "num_documento": true,
+            "fecha_expedicion": true,
+            "fecha_nacimiento": true,
+            "pais_nacimiento": true,
+            "pais": true,
+            "email": false,
+            "sexo": true,
+            "direccion": false,
+            "poblacion": false,
+            "provincia": false,
+            "codigo_postal": false,
+            "acepta_terminos": false
+        }
+              
+    },
+
+
+    "secretseu": {
+        "api_url": "http://iis.applelgeu.com:45450//AWWebAPI/api/aw/awa",
+        "custom_api_url": "http://localhost:8082",
+        "style": {
+            "URL_IMAGEN_FONDO": "../img/backgrounds/Fondo_Secrets.jpg",
+            "URL_LOGO_MARCA": "../img/banners/secrets_white.png",
+            "COLOR_FONDO_CUADRO_FORMULARIO": "#322f28",
+            "COLOR_BOTON": "#cfab66",
+            "COLOR_TEXTO_BOTON": "#746e63",
+            "COLOR_ICONO_GRIS": "#495057",
+            "COLOR_BOTON_EDITAR": "",
+            "COLOR_BOTON_BORRAR": ""
+        },
+        "showBanner": 1,
+        "colorBrand": "rgb(255 255 255 / 57%)",
+        "bannerHeader": {
+            "url": "http://www.amresortseu.com/",
+            "img": "../img/banners/amr_black.png"
+        },
+        "banner": [
+            {
+                "url": "http://www.zoetryresorts.com/en_us/home.html",
+                "img": "../img/banners/zoetry_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.secretsresorts.com/en_us/home.html",
+                "img": "../img/banners/secrets_black.png",
+                "width": ""
+            },
+            {
+                "url": "http://www.breathlessresorts.com/en_us/home.html",
+                "img": "../img/banners/breathless_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.dreamsresorts.com/en_us/home.html",
+                "img": "../img/banners/dreams_black.png",
+                "width": ""
+            },
+            {
+                "url": "http://www.nowresorts.com/",
+                "img": "../img/banners/now_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.reflectresorts.com/en_us/home.html",
+                "img": "../img/banners/reflect_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.aluahotels.com/",
+                "img": "../img/banners/alua_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.sunscaperesorts.com/",
+                "img": "../img/banners/sunscape_black.png",
+                "width": ""
+            }
+        ],
+        "hotels": [
+	    {
+                "id": "H16",
+                "title": "SECRETS MALLORCA VILLAMIL",
+                "docs": ["Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H17",
+                "title": "SECRETS LANZAROTE",
+                "docs": ["Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H22",
+                "title": "SECRETS BAHIA REAL",
+                "docs": ["Doc_1_H22_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            }
+	         ],
+
+	"camposObligatorios": {
+            "nombre": true,
+            "primer_apellido": true,
+            "segundo_apellido": false,
+            "tipo_doc": true,
+            "num_documento": true,
+            "fecha_expedicion": true,
+            "fecha_nacimiento": true,
+            "pais_nacimiento": true,
+            "pais": true,
+            "email": false,
+            "sexo": true,
+            "direccion": false,
+            "poblacion": false,
+            "provincia": false,
+            "codigo_postal": false,
+            "acepta_terminos": false
+        }
+              
+    },
+
+
+   "zoetryeu": {
+        "api_url": "http://iis.applelgeu.com:45450//AWWebAPI/api/aw/awa",
+        "custom_api_url": "http://localhost:8082",
+        "style": {
+            "URL_IMAGEN_FONDO": "../img/backgrounds/fondo_zoetry.jpg",
+            "URL_LOGO_MARCA": "../img/banners/zoetry_white.png",
+            "COLOR_FONDO_CUADRO_FORMULARIO": "#e6cb98",
+            "COLOR_BOTON": "#b37f20",
+            "COLOR_TEXTO_BOTON": "#514a46",
+            "COLOR_ICONO_GRIS": "#495057",
+            "COLOR_BOTON_EDITAR": "",
+            "COLOR_BOTON_BORRAR": ""
+        },
+        "showBanner": 1,
+        "colorBrand": "rgb(255 255 255 / 57%)",
+        "bannerHeader": {
+            "url": "http://www.amresortseu.com/",
+            "img": "../img/banners/amr_black.png"
+        },
+        "banner": [
+            {
+                "url": "http://www.zoetryresorts.com/en_us/home.html",
+                "img": "../img/banners/zoetry_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.secretsresorts.com/en_us/home.html",
+                "img": "../img/banners/secrets_black.png",
+                "width": ""
+            },
+            {
+                "url": "http://www.breathlessresorts.com/en_us/home.html",
+                "img": "../img/banners/breathless_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.dreamsresorts.com/en_us/home.html",
+                "img": "../img/banners/dreams_black.png",
+                "width": ""
+            },
+            {
+                "url": "http://www.nowresorts.com/",
+                "img": "../img/banners/now_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.reflectresorts.com/en_us/home.html",
+                "img": "../img/banners/reflect_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.aluahotels.com/",
+                "img": "../img/banners/alua_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.sunscaperesorts.com/",
+                "img": "../img/banners/sunscape_black.png",
+                "width": ""
+            }
+        ],
+        "hotels": [
+	    {
+                "id": "H25",
+                "title": "ZOETRY MALLORCA",
+                "docs": ["Doc_1_H25_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            }
+          
+        ],
+	"camposObligatorios": {
+            "nombre": true,
+            "primer_apellido": true,
+            "segundo_apellido": false,
+            "tipo_doc": true,
+            "num_documento": true,
+            "fecha_expedicion": true,
+            "fecha_nacimiento": true,
+            "pais_nacimiento": true,
+            "pais": true,
+            "email": false,
+            "sexo": true,
+            "direccion": false,
+            "poblacion": false,
+            "provincia": false,
+            "codigo_postal": false,
+            "acepta_terminos": false
+        }
+              
+    },
+
+
+    "amresortseu": {
+        "api_url": "http://iis.applelgeu.com:45450//AWWebAPI/api/aw/awa",
+        "custom_api_url": "http://localhost:8082",
+        "style": {
+            "URL_IMAGEN_FONDO": "../img/backgrounds/fondo_generica.jpeg",
+            "URL_LOGO_MARCA": "../img/banners/amr_white.png",
+            "COLOR_FONDO_CUADRO_FORMULARIO": "#0c4e79 ",
+            "COLOR_BOTON": "#e6e1d3",
+            "COLOR_TEXTO_BOTON": "#746e63",
+            "COLOR_ICONO_GRIS": "#495057",
+            "COLOR_BOTON_EDITAR": "",
+            "COLOR_BOTON_BORRAR": ""
+        },
+        "showBanner": 1,
+        "colorBrand": "rgb(255 255 255 / 57%)",
+        "bannerHeader": {
+            "url": "http://www.amresortseu.com/",
+            "img": "../img/banners/amr_black.png"
+        },
+        "banner": [
+            {
+                "url": "http://www.zoetryresorts.com/en_us/home.html",
+                "img": "../img/banners/zoetry_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.secretsresorts.com/en_us/home.html",
+                "img": "../img/banners/secrets_black.png",
+                "width": ""
+            },
+            {
+                "url": "http://www.breathlessresorts.com/en_us/home.html",
+                "img": "../img/banners/breathless_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.dreamsresorts.com/en_us/home.html",
+                "img": "../img/banners/dreams_black.png",
+                "width": ""
+            },
+            {
+                "url": "http://www.nowresorts.com/",
+                "img": "../img/banners/now_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.reflectresorts.com/en_us/home.html",
+                "img": "../img/banners/reflect_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.aluahotels.com/",
+                "img": "../img/banners/alua_black.png",
+                "width": ""
+            },
+            {
+                "url": "https://www.sunscaperesorts.com/",
+                "img": "../img/banners/sunscape_black.png",
+                "width": ""
+            }
+        ],
+        "hotels": [
+	    {
+                "id": "H01",
+                "title": "ALUASOUL MALLORCA RESORT",
+                "docs": ["Doc_1_H01_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H02",
+                "title": "ALUASOUL IBIZA",
+                "docs": ["Doc_1_H02_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H03",
+                "title": "ALUASOUL ALCUDIA BAY",
+                "docs": ["Doc_1_H03_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H04",
+                "title": "ALUASOUL PALMA",
+                "docs": ["Doc_1_H04_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },  
+	    {
+                "id": "H05",
+                "title": "ALUASUN TORRENOVA",
+                "docs": ["Doc_1_H05_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H06",
+                "title": "ALUA PARQUE SAN ANTONIO",
+                "docs": ["Doc_1_H06_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },         
+	    {
+                "id": "H07",
+                "title": "ALUAVILLAGE FUERTEVENTURA",
+                "docs": ["Doc_1_H07_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H10",
+                "title": "ALUA HAWAII MALLORCA",
+                "docs": ["Doc_1_H00_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H11",
+                "title": "ALUA PALMA NOVA BAY",
+                "docs": ["Doc_1_H00_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H12",
+                "title": "ALUA HAWAII IBIZA",
+                "docs": ["Doc_1_H00_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H13",
+                "title": "ALUA HAWAII IBIZA",
+                "docs": ["Doc_1_H00_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },  
+            {
+                "id": "H26",
+                "title": "ALUASOUL MENORCA",
+                "docs": ["Doc_1_H00_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H27",
+                "title": "ALUASOUL MENORCA",
+                "docs": ["Doc_1_H00_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H28",
+                "title": "ALUASUN FAR MENORCA",
+                "docs": ["Doc_1_H00_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H29",
+                "title": "ALUASUN MEDITERRANEO",
+                "docs": ["Doc_1_H00_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H40",
+                "title": "ALUA BOCCACCIO",
+                "docs": ["Doc_1_H40_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H41",
+                "title": "ALUASUN CONTINENTAL PARK",
+                "docs": ["Doc_1_H41_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H42",
+                "title": "ALUASOUL CAROLINA",
+                "docs": ["Doc_1_H42_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },  
+	    {
+                "id": "H43",
+                "title": "ALUA LAS ROCAS",
+                "docs": ["Doc_1_H43_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H44",
+                "title": "ALUA LEO",
+                "docs": ["Doc_1_H44_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },         
+	    {
+                "id": "H47",
+                "title": "ALUA CAMP DE MAR",
+                "docs": ["Doc_1_H47_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H48",
+                "title": "ALUASUN DOBLEMAR",
+                "docs": ["Doc_1_H48_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H49",
+                "title": "ALUA GOLF TRINIDAD",
+                "docs": ["Doc_1_H49_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H50",
+                "title": "ALUASUN MARBELLA PARK",
+                "docs": ["Doc_1_H50_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H51",
+                "title": "ALUASUN FLAMINGO",
+                "docs": ["Doc_1_H51_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },  
+	    {
+                "id": "H52",
+                "title": "ALUASUN LAGO ROJO",
+                "docs": ["Doc_1_H52_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H53",
+                "title": "ALUASUN COSTA PARK",
+                "docs": ["Doc_1_H53_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },         
+	    {
+                "id": "H55",
+                "title": "ALUASUN LAGO PARK",
+                "docs": ["Doc_1_H55_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H21",
+                "title": "ALUA SUITES FUERTEVENTURA",
+                "docs": ["Doc_1_H21_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H33",
+                "title": "ALUA CALAS DE MALLORCA RESORTS",
+                "docs": ["Doc_1_H00_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H34",
+                "title": "ALUASUN CALA ANTENA",
+                "docs": ["Doc_1_H00_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },    
+	    {
+                "id": "H20",
+                "title": "HOTEL JARDIN TROPICAL",
+                "docs": ["Doc_1_H20_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H30",
+                "title": "HOTEL CARTAGO",
+                "docs": ["Doc_1_H30_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H31",
+                "title": "HOTEL GALEON",
+                "docs": ["Doc_1_H31_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H32",
+                "title": "SIAU IBIZA HOTEL",
+                "docs": ["Doc_1_H32_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },  
+	    {
+                "id": "H45",
+                "title": "HOTEL LINDA",
+                "docs": ["Doc_1_H45_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H46",
+                "title": "HOTEL OBEROY",
+                "docs": ["Doc_1_H46_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },         
+	    {
+                "id": "H54",
+                "title": "APARTAMENTOS OASIS PARK",
+                "docs": ["Doc_1_H54_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H18",
+                "title": "DREAMS LANZAROTE PLAYA DORADA",
+                "docs": ["policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H16",
+                "title": "SECRETS MALLORCA VILLAMIL",
+                "docs": ["Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H17",
+                "title": "SECRETS LANZAROTE",
+                "docs": ["Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            },
+            {
+                "id": "H22",
+                "title": "SECRETS BAHIA REAL",
+                "docs": ["Doc_1_H22_1_","Doc_2_H00_2_","policia_"],
+		"api_url": ""
+            },
+	    {
+                "id": "H25",
+                "title": "ZOETRY MALLORCA",
+                "docs": ["Doc_1_H25_1_","Doc_2_H00_2_","Doc_3_H00_3_","policia_"],
+		"api_url": ""
+            }	   
+        ],
+	"camposObligatorios": {
+            "nombre": true,
+            "primer_apellido": true,
+            "segundo_apellido": false,
+            "tipo_doc": true,
+            "num_documento": true,
+            "fecha_expedicion": true,
+            "fecha_nacimiento": true,
+            "pais_nacimiento": true,
+            "pais": true,
+            "email": false,
+            "sexo": true,
+            "direccion": false,
+            "poblacion": false,
+            "provincia": false,
+            "codigo_postal": false,
+            "acepta_terminos": false
+        }
+              
+    }
+    
+}
